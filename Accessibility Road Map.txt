@@ -1,0 +1,19 @@
+﻿Accessibility Road Map/Planning
+
+
+Design:
+* Maintain linear flow that will make sense when tabbed through
+* Make sure labels and inputs are in correct order to ensure correct use
+* Include controls - will be accessible via keyboard
+* No autoplay - annoying/impeding for some people
+
+
+Code:
+* Using semantic tags for their intended use - like button tags for clickable buttons, a href tags for links, sections for content wrappers.
+* Using semantic header tags everywhere to make sure visual information can be represented non-visually.
+* Writing content in paired groups to ensure linear flow so when screen reader views them 
+e.g. having divs contain img and paragraph assoc. with one another
+Make sure controls are fully keyboard accessible
+* Using transcripts to supply seeing impaired with extra details
+* Using captions to supply hearing impaired with extra details
+* Podcasts and other audio need transcripts to read so hearing impaired can read the transcript

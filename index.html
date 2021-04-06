@@ -4,18 +4,304 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
     <title>Accessibility</title>
 </head>
 <body>
     <main>
-        <header>
-
-        </header>
+        <h1>Web Accessibility and Media</h1>
         <section>
-            <div></div>
-            <div></div>
-            <div></div>
+            
+            <div class="captions">
+                <h3>Video Captions</h3>
+                <!-- This video is a movie with captions -->
+                <!-- For people who may be hard of hearing or have cognitive impairments -->
+                <video controls preload="metadata" src="images/avengers.mp4">
+                    <track default
+                            kind="captions"
+                            srclang="en"
+                            src="/images/avengers_caption.vtt" />
+                    Sorry, your browser does not support embedded videos.
+                </video>
+            </div>
+
+            <div class="captions-and-transcript">
+                <h3>Video Captions and Descriptive transcript</h3>
+                <!-- This video is a TV show with a descriptive transcript -->
+                <!-- for people who may be seeing impaired -->
+                
+                <video controls src="images/Guardians2.mp4">
+                    <track default
+                           kind="captions"
+                           srclang="en"
+                           src="images/guardians_caption.vtt" />
+                    Sorry, your browser does not support embedded videos.
+                </video>
+                <button class="transcriptButton">See Transcript</button>
+                <p>
+                    The fate of the universe lies on your shoulders. Now whatever you do, don't push this button because that will set off the bomb immediately and we'll all be dead.
+
+                    <br>
+                   
+                    (gasps)
+
+                    <br>
+                   
+                    Now repeat back what I just said.
+
+                    <br>
+                    
+                    I am groot
+
+                    <br>
+                    
+                    No! No that's the button that will kill everyone! Try again.
+
+                    <br>
+                    
+                    I am groot.
+
+                    <br>
+                   
+                    Mhm
+
+                    <br>
+                    
+                    I am groot
+
+                    <br>
+                    
+                    Uh huh
+
+                    <br>
+                    
+                    I am groot! 
+
+                    <br>
+                 
+                    NO!
+
+                    <br>
+                
+                    (rock music playing)
+
+                    <br>
+                
+                    (Peter) Showtime a-holes!
+
+                    <br>
+                
+                    (drax screams)
+
+                    <br>
+                
+                    (a blue energy explosion, people go flying into air and fall back down)
+
+
+                    <br>
+                   
+                    (Peter flying a spaceship and shooting at other spaceships, exploding them)
+
+                    <br>
+                   
+                    (Drax) Screw you, spaceship!
+
+                    <br>
+                   
+                    (groot screaming)
+
+                    <br>
+                   
+                    Does anybody have some tape out there? I wanna put some tape over the death button.
+
+                    <br>
+                   
+                    (Peter) Nobody has any tape.
+
+                    <br>
+                   
+                    Not a single person has tape?
+
+                    <br>
+                    
+                    (Peter) You have an atomic bomb in your bag if anybody's going to have tape it's you!
+
+                    <br>
+                  
+                    I have to do everything!
+
+                    <br>
+                
+                    (Peter) You're wasting a lot of time with groot!
+
+                    <br>
+                  
+                    I am Groot!
+                    <br>
+                   
+                    That's a really bad sign.
+                    <br>
+                  
+                    (rock music playing)
+                    <br>
+                 
+                    (explosions, gun shots)
+                    <br>
+                  
+                    If I touch someone, I can feel their feelings. You feel.. love.
+                    <br>
+                  
+                    (Peter) Yeah, I guess yeah, I feel a general, unselfish love for..
+                    <br>
+                  
+                    No. Sexual love.
+                    <br>
+                
+                    (Peter) No. No I don't.
+                    <br>
+                
+                    For her! (pointing at Gamora)
+                    <br>
+                
+                    (Peter) No!
+                    <br>
+                 
+                    (Drax laughing)
+                    <br>
+                
+                    (Drax) She just told everyone your deepest darkest secret!
+                    <br>
+                  
+                    (Peter) Dude! Come on I think you are over reacting a little bit.
+                    <br>
+             
+                    (Drax still laughing, now pointing) you must be so embarrassed!
+                    <br>
+           
+                    Do me, do me, do me!
+                    <br>
+     
+                    (music playing)
+                </p>
+            </div>
+
+            <div class="podcast-transcript">
+                <h3>Audio - Podcast transcript</h3>
+                <audio controls src="images/storycorps.mp3"></audio>
+                <!-- This is for podcasts for people who have hearing disabilities -->
+                
+                <button class="audioTranscriptButton">See Transcript</button>
+                <p>
+                    Blanca Alvarez (BA) and Connie Alvarez (CA)
+
+                    <br>
+                
+                    BA: We were walking and walking through the mountains…
+                    
+                    <br>
+                
+                    CA: In the desert?
+                    
+                    <br>
+                
+                    BA: Uh huh. And um the man he told us to take our shoes off because there was a lot of rocks. And he said I don’t want no noise because the dogs are very very good to detect every noise.
+                    
+                    <br>
+                
+                    CA: Ohhh.
+                    
+                    <br>
+                
+                    BA: And he said I’m gonna whistle and you gonna duck. And it was a point where he whistled you know we went out on our stomachs. And we stay there, oh my god, I can see ants, big ants crawling. And I was so scared and he said when the border patrol change shifts…
+                    
+                    <br>
+                
+                    CA: Yes.
+                    
+                    <br>
+                
+                    BA: …you know you gotta run. I remember it was torture in those rocks without shoes. So I, we run as fast as we could and then he said you gonna walk through that bridge, I’m gonna walk behind you, and you gonna give me the money there and then from there you’re on your own.
+                    
+                    <br>
+                
+                    CA: What kinds of jobs did you have since first arriving in the country?
+                    
+                    <br>
+                
+                    BA: We were gardeners. And we were cleaning offices.
+                    
+                    <br>
+                
+                    CA: I remember the offices.
+                    
+                    <br>
+                
+                    BA: You remember that? We had the night shift cleaning that’s why you know we had to take you and your brother. I didn’t have a babysitter.
+                    
+                    <br>
+                
+                    CA: I have memories of running into everyone’s office and eating candy from their candy dishes. I remember being with my brother in our pajamas with the little plastic feet. And I also remember you would always buy us a cup-of-noodle from the vending machine, like a snack, and then put us to bed on people’s office couches and then you’d carry us to the car when you guys were done cleaning the offices. I remember that. Did they ever know? Did your bosses ever know that you took your kids?
+                    
+                    <br>
+                
+                    BA: No, I don’t think so.
+                    
+                    <br>
+                
+                    CA: Is there anything that you’ve never told me but want to tell me now?
+                    
+                    <br>
+                
+                    BA: When we first came here we went through a lot of things like not eating…
+                    
+                    <br>
+                
+                    CA: Oh…
+
+                    <br>             
+                    
+                    BA: I guess for 6 months your father lost his job but we never told you that.
+                    
+                    <br>
+                
+                    CA: I do remember a lot of beans. Bean tacos.
+                    
+                    <br>
+                
+                    BA: But when you ask us why the same thing… remember?
+                    
+                    <br>
+                
+                    CA: Yeah yeah.
+                    
+                    <br>
+                
+                    BA: I didn’t want to tell you why.
+                    
+                    <br>
+                
+                    CA: If you could do everything again would you raise me differently?
+                    
+                    <br>
+                
+                    BA: I would dedicate more time I guess. You know, I was so busy going to school too that I guess I neglected you a little bit.
+                    
+                    <br>
+                
+                    CA: No. For me watching you go to school with two kids and trying to make ends meet that was the biggest inspiration for me to finish college. I thought there’s nothing that could stand in my way that didn’t stand in yours more. So. It’s the most importing thing for me having gone to college and I feel like anything I do from here on out is ok because I’ve already achieved my dream. Everything else is icing on the cake.
+                </p>
+
+                
+            </div>
         </section>
     </main>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
